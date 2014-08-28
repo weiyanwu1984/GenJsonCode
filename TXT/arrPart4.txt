@@ -1,0 +1,7 @@
+  
+    self.arrMember = [NSMutableArray arrayWithCapacity:0];
+    for (NSDictionary *a in [dict objectForKey:@"arrMember"])
+    {
+        MessageItem* obj = [[MessageItem alloc] initWithJSONDictionary:a parent:self];
+        [self.arrMember addObject:obj];
+    }

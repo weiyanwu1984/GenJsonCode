@@ -1,0 +1,6 @@
+  
+    if (recursive && self.objectMember)
+    {
+        [dict setObject:[self.objectMember toJSONDictionaryRecursive:recursive] forKey:@"objectMember"];
+    }
+  

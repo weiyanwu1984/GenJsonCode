@@ -1,0 +1,3 @@
+MessageItemList;
+int count;
+    NSMutableArray* list;

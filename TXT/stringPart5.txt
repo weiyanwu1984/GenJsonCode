@@ -1,0 +1,6 @@
+  
+    if (stringMember)
+    {
+        [dict setObject:stringMember forKey:@"stringMember"];
+    }
+   

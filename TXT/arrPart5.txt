@@ -1,0 +1,10 @@
+  
+    if (recursive && self.arrMember)
+    {
+        NSMutableArray* tempArr = [NSMutableArray arrayWithCapacity:[self.arrMember count]];
+        for (MessageItem* obj in self.arrMember)
+        {
+            [tempArr addObject:[obj toJSONDictionaryRecursive:recursive]];
+        }
+        [dict setObject:tempArr forKey:@"arrMember"];
+    }

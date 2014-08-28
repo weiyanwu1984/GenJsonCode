@@ -1,0 +1,3 @@
+
++(XXX *)getXXXByLocalXXX:(XXX *)theLocalData;
++(LocalXXX *)getLocalXXXByXXX:(XXX *)theData;

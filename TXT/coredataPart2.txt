@@ -1,0 +1,17 @@
+
++(XXX *)getXXXByLocalXXX:(XXX *)theLocalData
+{
+    XXX *ret = [XXX alloc] init];
+
+part6
+    return ret;
+}
+
+
++(LocalXXX *)getLocalXXXByXXX:(XXX *)theData
+{
+    LocalXXX *ret = [LocalXXX alloc] init];
+
+part7
+    return ret;
+}

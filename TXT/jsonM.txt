@@ -1,0 +1,27 @@
+
+#import "MyClassName.h"
+
+@implementation MyClassName
+
+part3
+
+- (void)loadWithJSONDictionary:(NSDictionary *)dict parent:(BaseClassName *)parentObject
+{
+    [self setParent:parentObject];
+
+part4
+
+}
+
+- (NSDictionary*)toJSONDictionaryRecursive:(BOOL)recursive
+{
+    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithCapacity:0];
+
+part5
+
+    return dict;
+}
+
+@end
+
+

@@ -1,0 +1,6 @@
+
+    if (dateMember)
+    {
+        [dict setObject:[JosnBaseObject getMSFromDate:dateMember] forKey:@"dateMember"];
+    }
+    

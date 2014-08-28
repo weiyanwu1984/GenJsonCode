@@ -1,0 +1,29 @@
+
+
+
+
+
+
+#import <Foundation/Foundation.h>
+#import "BaseClassName.h"
+
+@interface MyClassName : BaseClassName
+{
+part1
+}
+
+part2
+
+partCoreData1
+
+@end
+
+
+
+
+
+
+
+
+
+

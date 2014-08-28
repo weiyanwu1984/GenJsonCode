@@ -1,0 +1,4 @@
+  
+    XXXX* theObjectMember = [[XXXX alloc] initWithJSONDictionary:[dict objectForKey:@"objectMember"] parent:self];
+    [self setObjectMember: theObjectMember];
+  

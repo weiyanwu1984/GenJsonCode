@@ -1,0 +1,5 @@
+
+    if (charMember != '\0')
+    {
+        [dict setObject:[NSString stringWithFormat:@"%c",charMember] forKey:@"charMember"];
+    }
